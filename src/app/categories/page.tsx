@@ -38,7 +38,7 @@ export default function Page() {
               { title: 'ALLNEW TERIOS', image: '/suv.png', desc: 'SUV', price: 74 },
               { title: 'NEW MGZS', image: '/suv.png', desc: 'SUV', price: 80 },
               { title: 'MGZX Exclusive', image: '/suv (4).png', desc: 'Luxury', price: 76 },
-              { title: 'ROLLS - ROYCE', image: '/Car  (4).png', desc: 'Luxury', price: 76 },
+              { title: 'ROLLS - ROYCE', image: '/Car (2).png', desc: 'Luxury', price: 76 },
             ].map((car, index) => (
               <Card key={index} className="w-full max-w-[304px] mx-auto h-auto flex flex-col justify-between">
                 <CardHeader>

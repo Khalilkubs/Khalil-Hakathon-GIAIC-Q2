@@ -1,3 +1,6 @@
+import Image from "next/image";
+import { RentalCard } from "@/components/card"; // Ensure the path to the card component is correct
+
 const RentalPage = () => {
   // Rental options data
   const rentalOptions = [
@@ -12,15 +15,12 @@ const RentalPage = () => {
     { src: "/MGZXExclusive.png", alt: "MG ZX Exclusive", price: 76, width: 534 },
   ];
 
-  // Log the rental options data to the console
-  console.log(rentalOptions); // Add this line here
-
   return (
     <div className="flex flex-col md:flex-row w-full">
       {/* Sidebar */}
       <aside className="hidden md:block w-[25%] lg:w-[20%] bg-gray-100 p-4">
         <Image
-          src="/Heart1.png.jpg" // Updated to match correct capitalization
+          src="/Heart1.png.jpg" // Ensure the file name and path are correct
           alt="Navigation Sidebar"
           width={360}
           height={1600}
@@ -44,3 +44,5 @@ const RentalPage = () => {
     </div>
   );
 };
+
+export default RentalPage;

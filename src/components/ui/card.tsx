@@ -82,19 +82,31 @@ const CardFooter = React.forwardRef<
 ));
 CardFooter.displayName = "CardFooter";
 
-// Card with Image Component
-const CardWithImage = () => {
+// Rental Card Component
+const RentalCard = ({
+  src,
+  alt,
+  price,
+  width,
+}: {
+  src: string;
+  alt: string;
+  price: number;
+  width: number;
+}) => {
   return (
-    <Card className="p-6 bg-[#f6f7f9]">
-      <div className="flex justify-center">
-        <Image
-          src="/Catalogue Car.png" // Path to your image
-          alt="Car Catalogue"
-          width={534} // Specify appropriate dimensions
-          height={300}
-          className="rounded-lg shadow-md"
-        />
-      </div>
+    <Card className="bg-white w-full max-w-[400px] shadow-md">
+      <CardContent>
+        {/* Car Image */}
+        <div className="flex justify-center">
+          <Image src={src} alt={alt} width={width} height={300} className="rounded-lg" />
+        </div>
+        {/* Car Details */}
+        <div className="mt-4 text-center">
+          <CardTitle>{alt}</CardTitle>
+          <CardDescription>${price}/day</CardDescription>
+        </div>
+      </CardContent>
     </Card>
   );
 };
@@ -106,5 +118,5 @@ export {
   CardTitle,
   CardDescription,
   CardContent,
-  CardWithImage,
+  RentalCard,
 };
