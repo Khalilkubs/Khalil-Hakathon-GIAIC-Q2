@@ -1,40 +1,44 @@
 {
   "compilerOptions": {
+    "target": "ES2020", // Supports modern JS features
     "lib": [
       "dom",
       "dom.iterable",
       "esnext"
     ],
-    "allowJs": true,
+    "allowJs": true, // Allow JS files alongside TS
     "skipLibCheck": true,
-    "strict": true,
-    "noEmit": false, // Optional: You may try setting it to false if facing issues
+    "strict": true, // Enables all strict type-checking options
+    "noEmit": true, // Prevents emitting compiled JS files
     "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "node", // Changed from "bundler" to "node"
-    "resolveJsonModule": true,
+    "module": "esnext", // Modern ES modules
+    "moduleResolution": "node", // Resolves modules like Node.js
+    "resolveJsonModule": true, // Allows importing JSON files
     "isolatedModules": true,
-    "jsx": "preserve", // Changed from "preserve" to "react-jsx"
+    "jsx": "preserve", // Correct setting for Next.js projects
     "incremental": true,
+    "baseUrl": ".", // Base URL for absolute paths
+    "paths": {
+      "@/*": [
+        "src/*"
+      ] // Aliases for your components, utils, etc.
+    },
+    "forceConsistentCasingInFileNames": true // Enforce consistent file casing
+    ,
     "plugins": [
       {
         "name": "next"
       }
-    ],
-    "paths": {
-      "@/*": [
-        "./src/*"
-      ]
-    },
-    "target": "ES2017"
+    ]
   },
   "include": [
-    "next-env.d.ts",
+    "next-env.d.ts", // Next.js environment types
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
   ],
   "exclude": [
-    "node_modules"
-  ]
+    "node_modules",
+    "dist"
+  ] // Exclude build artifacts
 }
