@@ -1,6 +1,6 @@
 The Template 7 project is a Figma-based design for a Rental Car Company. 
 
-Some pages are highly responsive, while others are static. To access specific pages, users need to enter the URL directly in the address bar, for example, https://khalil-hakathon-giaic-q2.vercel.app/payment to visit the payment page
+Some pages are highly responsive such as catgories and show more pages, while others are static. To access specific pages, users need to enter the URL directly in the address bar, for example, https://khalil-hakathon-giaic-q2.vercel.app/payment to visit the payment page
 
 # **Khalil-Hakathon-GIAIC-Q2**
 
