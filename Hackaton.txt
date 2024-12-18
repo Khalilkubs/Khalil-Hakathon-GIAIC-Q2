@@ -1,0 +1,41 @@
+structure of my next.js project 
+
+
+khalil hakathon -GiAIC-q2
+.next
+.vercel
+project.jason containing id 
+README.txt
+Vercel.jason
+node_module
+public 
+ads.png
+pic2.png 
+
+
+Src
+app
+categories/pages.tsx
+Components/footer.tsx and navbar.tsx
+details/pages.tsx
+Fonts/GeistmonoVf.wof/GeistVF/.woff
+Home/pages.tsx
+Payment/pages.tsx
+favicon.ico
+globals.css
+layout.tsx
+page.tsx
+component/ui
+card.tsx
+input.tsx
+lib/utils.ts
+.gittributes.txt
+.gitignore
+components.jason
+next.config.mjs
+next.config.ts
+package-lock.json
+postcss.config.mjs
+README.md
+tailwind.config.ts
+tsconfig.json

@@ -111,12 +111,8 @@ const RentalCard = ({
   );
 };
 
-export {
-  Card,
-  CardHeader,
-  CardFooter,
-  CardTitle,
-  CardDescription,
-  CardContent,
-  RentalCard,
-};
+// Option 1: Export all components as a named export
+export { Card, CardHeader, CardFooter, CardTitle, CardDescription, CardContent, RentalCard };
+
+// Option 2: Define and export a default component (if needed)
+export const card = RentalCard;  // Exporting `RentalCard` as `card`
