@@ -70,7 +70,7 @@
               </CardContent>
               <CardFooter className="w-full flex items-center justify-between">
                 <p>
-                  $99.00/<span className="text-gray-500">day</span>
+                  $89.00/<span className="text-gray-500">day</span>
                 </p>
                 <Link href={'/payment'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>
               </CardFooter>
@@ -85,12 +85,12 @@
                 <CardDescription>Sedan</CardDescription>
               </CardHeader>
               <CardContent className="w-full flex flex-col items-center justify-center gap-4">
-                <Image src={"/car.png"} alt="" width={220} height={68} />
+                <Image src={"/car (2).png"} alt="" width={220} height={68} />
                 <Image src={"/Spesification.png"} alt="" width={256} height={24} />
               </CardContent>
               <CardFooter className="w-full flex items-center justify-between">
                 <p>
-                  $99.00/<span className="text-gray-500">day</span>
+                  $96.00/<span className="text-gray-500">day</span>
                 </p>
                 <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button>
               </CardFooter>
@@ -110,7 +110,7 @@
               </CardContent>
               <CardFooter className="w-full flex items-center justify-between">
                 <p>
-                  $99.00/<span className="text-gray-500">day</span>
+                  $80.00/<span className="text-gray-500">day</span>
                 </p>
                 <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button>
               </CardFooter>
@@ -136,7 +136,7 @@
               </CardContent>
               <CardFooter className="w-full flex items-center justify-between">
                 <p>
-                  $99.00/<span className="text-gray-500">day</span>
+                  $78.00/<span className="text-gray-500">day</span>
                 </p>
                 <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button>
               </CardFooter>
@@ -176,31 +176,13 @@
               </CardContent>
               <CardFooter className="w-full flex items-center justify-between">
                 <p>
-                  $99.00/<span className="text-gray-500">day</span>
+                  $96.00/<span className="text-gray-500">day</span>
                 </p>
                 <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button>
               </CardFooter>
             </Card>
 
             
-            <Card className="w-full max-w-[304px] mx-auto h-auto flex flex-col justify-between">
-              <CardHeader>
-                <CardTitle className="w-full flex items-center justify-between">
-                  CR - V <Image src={"/heart 2.png"} alt="" width={20} height={20} />
-                </CardTitle>
-                <CardDescription>SUV</CardDescription>
-              </CardHeader>
-              <CardContent className="w-full flex flex-col items-center justify-center gap-4">
-                <Image src={"/suv (4).png"} alt="" width={220} height={68} />
-                <Image src={"/Spesification.png"} alt="" width={256} height={24} />
-              </CardContent>
-              <CardFooter className="w-full flex items-center justify-between">
-                <p>
-                  $99.00/<span className="text-gray-500">day</span>
-                </p>
-                <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button>
-              </CardFooter>
-            </Card>
           </div>
           <div className="sec grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             
