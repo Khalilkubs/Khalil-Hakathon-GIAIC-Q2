@@ -219,7 +219,7 @@
               </CardContent>
               <CardFooter className="w-full flex items-center justify-between">
                 <p>
-                  $99.00/<span className="text-gray-500">day</span>
+                  $92.00/<span className="text-gray-500">day</span>
                 </p>
                 <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button>
               </CardFooter>
